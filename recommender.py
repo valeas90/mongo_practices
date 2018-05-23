@@ -25,7 +25,7 @@ class Recommender(object):
         user_playlists = self.users_collection.find({'id': user_id}, ['playlists'])
         return user_playlists
 
-    def get_main_cat_from_playlist_ids(self, ids):
+    def get_user_playlists(self, ids):
         elements = self.playlists_collection.find({"id": {'$in': ids}})
         return elements
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     time.sleep(2)
     print 'Getting most heared category from those playlists ...'
     time.sleep(1)
-    elements = r.get_main_cat_from_playlist_ids(playlists)
+    elements = r.get_user_playlists(playlists)
     returned_playlists = [e for e in elements]
     top_cat = max([e.get('main_cat') for e in [m for m in returned_playlists]])
     print 'The main category is %s' % top_cat
