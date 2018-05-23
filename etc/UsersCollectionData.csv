@@ -1,0 +1,10 @@
+ID;Name;Apellido;Email;Edad;Genero;Playlists
+1;Pepito;Perez;pepitoperez@everis.com;23;Hombre;[1,3,6]
+2;Rosa;Rodriguez;rosarodriguez@everis.com;34;Mujer;[10,3,6,2]
+3;Joaquin;Reyes;joaquinreyes@everis.com;56;Hombre;[1,3,6,5,4]
+4;Jacinto;Pinto;jacintopinto@everis.com;76;Hombre;[1,2,10,9]
+5;Marisa;Gonzalez;marisagonzalez@everis.com;34;Mujer;[8,7,9,1]
+6;Rodrigo;Gimenez;rodrigogimenez@everis.com;56;Hombre;[2,4,7,8]
+7;Rocio;Perez;rocioperez@everis.com;24;Mujer;[5,2,8,10]
+8;Ruben;Garcia;rubengarcia@everis.com;67;Hombre;[3,4,8,9]
+9;Juan;Rodriguez;juanrodriguez@everis.com;90;Hombre;[1,2,3,4,5,6,7]
